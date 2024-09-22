@@ -100,7 +100,6 @@ DATABASES = {
 # Redis
 if os.getenv('REDIS', None):
     REDIS_HOST = 'redis'
-    REDIS_PORT = 6378
 else:
     REDIS_HOST = 'localhost'
 
